@@ -3,7 +3,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:jsonproject/pages/alert_page.dart';
+import 'package:jsonproject/pages/avatar_page.dart';
 import 'package:jsonproject/pages/home_page.dart';
+import 'package:jsonproject/pages/input_page.dart';
  
 void main() => runApp(MyApp());
  
@@ -16,7 +18,9 @@ class MyApp extends StatelessWidget {
       initialRoute: 'home',
       routes: {
         'home': (BuildContext context) => HomePage(),
-        'alert': (BuildContext context) => AlertPage()
+        'alert': (BuildContext context) => AlertPage(),
+        'avatar': (BuildContext context) => AvatarPage(),
+        'input': (BuildContext context) => Input()
       },
     );
   }
