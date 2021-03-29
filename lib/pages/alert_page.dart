@@ -10,6 +10,12 @@ class AlertPage extends StatelessWidget {
       body: Center(
         child: Text('página alert'),
       ),
+      floatingActionButton: FloatingActionButton(
+        child: Icon(Icons.home_repair_service, color: Colors.red,),
+        onPressed: (){
+          Navigator.of(context).pop();
+        },
+      ),
     );
   }
 }
