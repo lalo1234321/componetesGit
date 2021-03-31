@@ -56,7 +56,7 @@ class HomePage extends StatelessWidget {
         trailing: Icon(Icons.arrow_forward_ios, color: Colors.purple,),
         leading: Icon(Icons.search),
         onTap: () {
-          Navigator.pushNamed(context, 'alert');
+          Navigator.pushNamed(context, opt['ruta']);
         },
       );
       opciones.add(listTileTemp);
